@@ -54,7 +54,7 @@ button{
 }
 .hero{
     height: 90vh;
-    background:url(/backImage.png) no-repeat center/cover;
+    background:url(backImage.png) no-repeat center/cover;
     text-align: center;
     align-content: center;
     color: white;
