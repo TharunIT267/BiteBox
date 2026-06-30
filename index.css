@@ -49,6 +49,54 @@ button{
     height: 55px;
     width: 50px;
 }
-div{
+.Logoheading{
     padding-right: 900px;
+}
+.hero{
+    height: 90vh;
+    background:url(/backImage.png) no-repeat center/cover;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-family: cursive;
+}
+.textvideo-container{
+    border: 2px solid;
+    height: 50vh;
+    width: 70%;
+    justify-self: center;
+    margin-top: 30px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+    row-gap: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.about-this{
+    border: 0px solid;
+    margin-top: 0px;
+    text-align: center;
+    justify-items: center;
+    grid-column: span 2;
+    height: 40vh;
+    background-color: whitesmoke;
+}
+video{
+    height: 400px;
+    width: 400px;
+    float: right;
+    padding-bottom: 200px;
+
+}
+.matter{
+    margin: 20px 0px 0px 20px;
+}
+
+.empty{
+    border: 2px solid;
+}
+.order:hover{
+    cursor: pointer;
 }
