@@ -56,55 +56,61 @@ button{
     height: auto;
     width: 60px;
 }
-.hero{
-    height: 90vh;
-    background:url(backimage.jpg) no-repeat center/cover;
-    text-align: center;
-    align-content: center;
-    color: white;
-    font-family: cursive;
-}
-.textvideo-container{
+.menu-container{
     border: 0px solid;
-    height: 50vh;
-    width: 100%;
-    justify-self: center;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50%;
-    row-gap: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-.about-this{
-    border: 0px solid;
-    margin-top: 0px;
-    text-align: center;
-    justify-items: center;
-    grid-column: span 2;
-    height: 40vh;
-    background-color: whitesmoke;
-}
-video{
     height: 400px;
-    width: 400px;
-    float: right;
-    padding-bottom: 200px;
-
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 36px;
 }
-.matter{
-    margin: 20px 0px 0px 20px;
+.card{
+    border: 0px solid;
+    height: 350px;
+    width: 24%;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
-.empty{
-    border: 2px solid;
+img{
+    height: 250px;
+    width: 90%;
+    border-radius: 5px;
 }
-.order:hover{
-    cursor: pointer;
+.icon-container{
+    border: 0px solid;
+    display: flex;
+    width: 70%;
+    justify-self: center;
+    gap: 65px;
 }
-.order{
-    height: 45px;
+.icon-image{
+    border: 1px solid grey;
+    height: 100px;
     width: 100px;
-    font-size: large;
+    border-radius: 50%;
+    padding: 7px;
+}
+.icim{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+.icon-image p{
+    margin-top: 8px;
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+.icon-image .icim:hover{
+    border-color: red;
+    transform: scale(1.1);
+}
+.icon-image:hover{
+    border-color: red;
+}
+button:hover{
+    cursor: pointer;
 }
