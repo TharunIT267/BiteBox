@@ -79,11 +79,12 @@ img{
     border-radius: 5px;
 }
 .icon-container{
-    border: 0px solid;
+    border:2px solid;
     display: flex;
-    width: 70%;
+    width: 80%;
     justify-self: center;
     gap: 65px;
+    justify-content: center;
 }
 .icon-image{
     border: 1px solid grey;
