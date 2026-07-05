@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px   ;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.Logoheading{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+li a:link{
+    color: white;
+}
+li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+li a:checked{
+    color: yellow;
+}
+.redo{
+    color: red;
+    text-decoration: underline;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    border: 0px red;
+    font-size: medium;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    width: 80px;
+    
+}
+.logo{
+    height: auto;
+    width: 60px;
+}
+section{
+    padding-top: 50px;
+}
+table{
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px rgb(221, 221, 221);
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+thead{
+    background-color: red;
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    height: 90px;
+}
+tbody{
+    border: 0px;
+    border-radius: 10px;
+    height: 20px;
+}
+img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.qtt{
+    width: 30px;
+}
+.item{
+    border: 0px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+th , td{
+    border: 0px;
+}
+tr{
+    border-bottom: 1px solid rgb(236, 229, 229);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(189, 19, 19);
+}

@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/fbda8278ee.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiteBox</title>
+    <title>BiteBox Cart</title>
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
-    <h1>Welcome to cart</h1>
+    <header>
+        <nav>
+            
+            <div class="Logoheading">
+                <img src="OffLogo.png" alt="Foodie Foodie" class="logo">
+                <h1 class="Brand">
+                <span style="color: white;">Bite</span><span style="color: red;">Box</span></h1></div>
+                <ul>
+                    <li type="none"><a class="redo" href="index.html">home</a></li>
+                    <li type="none"><a href="Menu.html" target="_blank">Menu</a></li>
+                    <li type="none"><a href="Deals.html" style="margin-top: 5px;">BiteDeals</a></li>
+                    <li type="none"><a href="cart.html"><i class="fa-solid fa-cart-arrow-down" style="margin-top: 5px;"></i></a></li>
+                    <li type="none"><a href="login.html"><button><i class="fa-solid fa-right-to-bracket"></i>Login</button></a></li>
+                </ul>
+        </nav>
+        
+    </header>
+    <section class="items">
+        <form>
+            <table border="1" style="height: 190px; width: 70%; border-color: gray; justify-self: center; border-radius: 10px;">
+                    <thead style="height: 40px;">
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                        <th>Remove</th>
+                    </thead>
+                        
+                    <tbody>
+                        <td class="item"><img src="Mcard1.jpg">
+                            <div class="burger">
+                                <h3>Cheese Burger</h3>
+                                <p>Juicey Grilled Burger</p>
+                            </div>
+                        </td>
+                        <td style="text-align: center;">₹199</td>
+                        <td style="text-align: center;"><button class="qtt">-</button>  1  <button class="qtt">+</button></td>
+                        <td style="text-align: center;">₹199</td>
+                        <td style="text-align: center;"><button class="qtt">X</button></td>
+                        <tr>
+                            <td class="item"><img src="Mcard2.jpg">
+                            <div class="burger">
+                                <h3>Paneer Pizza</h3>
+                                <p>Gaint Paneer Toppings</p>
+                            </div>
+                        </td>
+                        <td style="text-align: center;">₹239</td>
+                        <td style="text-align: center;"><button class="qtt">-</button>  1  <button class="qtt">+</button></td>
+                        <td style="text-align: center;">₹239</td>
+                        <td style="text-align: center;"><button class="qtt">X</button></td>
+                        </tr>
+                        <tr>
+                            <td class="item"><img src="Mcard3.jpg">
+                            <div class="burger">
+                                <h3>Alferdo Pasta</h3>
+                                <p>Greeny Alfferdo Pasta</p>
+                            </div>
+                        </td>
+                        <td style="text-align: center;">₹99</td>
+                        <td style="text-align: center;"><button class="qtt">-</button>  1  <button class="qtt">+</button></td>
+                        <td style="text-align: center;">₹99</td>
+                        <td style="text-align: center;"><button class="qtt">X</button></td>
+                        </tr>
+                        <tr>
+                            <td class="item"><img src="Mcard4.jpg">
+                            <div class="burger">
+                                <h3>Pizza</h3>
+                                <p>Veg Ginger pizza</p>
+                            </div>
+                        </td>
+                        <td style="text-align: center;">₹249</td>
+                        <td style="text-align: center;"><button class="qtt">-</button>  1  <button class="qtt">+</button></td>
+                        <td style="text-align: center;">₹249</td>
+                        <td style="text-align: center;"><button class="qtt">X</button></td>
+                        </tr>
+                        <tr>
+                            <td class="item"><img src="Menu5.jpg">
+                            <div class="burger">
+                                <h3>Chicken Grill</h3>
+                                <p>Well Seasoning grill</p>
+                            </div>
+                        </td>
+                        <td style="text-align: center;">₹199</td>
+                        <td style="text-align: center;"><button class="qtt">-</button>  1  <button class="qtt">+</button></td>
+                        <td style="text-align: center;">₹199</td>
+                        <td style="text-align: center;"><button class="qtt">X</button></td>
+                        </tr>
+                        <tr>
+                            <td class="item"><img src="Mcard6.jpg">
+                            <div class="burger">
+                                <h3>Steak</h3>
+                                <p>Juicey Steak</p>
+                            </div>
+                        </td>
+                        <td style="text-align: center;">₹299</td>
+                        <td style="text-align: center;"><button class="qtt">-</button>  1  <button class="qtt">+</button></td>
+                        <td style="text-align: center;">₹299</td>
+                        <td style="text-align: center;"><button class="qtt">X</button></td>
+                        </tr>
+                    </tbody>
+                    <tfoot style="padding-top: 10px; height: 80px;">
+                        <th><h3>Grand Total</h3></th>
+                        <th></th>
+                        <th></th>
+                        <th><h3>₹1284</h3></th>
+                        <th><button>Proceed</button></th>
+                    </tfoot>
+            </table>
+        </form>
+    </section>
     
 </body>
 </html>

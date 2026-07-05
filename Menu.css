@@ -79,7 +79,7 @@ img{
     border-radius: 5px;
 }
 .icon-container{
-    border:2px solid;
+    border:0px solid;
     display: flex;
     width: 80%;
     justify-self: center;
