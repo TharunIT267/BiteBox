@@ -1,7 +1,9 @@
+@media screen{
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 }
 
 nav{
@@ -10,17 +12,26 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 15 45px;
+    font-size: 20px;
+}
+header{
     position: sticky;
+    top: 0;
 }
 ul{
     display: flex;
     list-style: none;
-    gap: 25px   ;
+    gap: 20px   ;
 }
 nav a{
     color: white;
     text-decoration: none;
+}
+nav li:last-child a {
+    background-color:red;
+    padding: 6px 10px;
+    border-radius: 5px;
 }
 .Logoheading{
     display: flex;
