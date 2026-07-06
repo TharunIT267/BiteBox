@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+nav{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px   ;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.Logoheading{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+li a:link{
+    color: white;
+}
+li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+li a:checked{
+    color: yellow;
+}
+.redo{
+    color: red;
+    text-decoration: underline;
+}
+button{
+    font-family: 'Times New Roman', Times, serif;
+    border: 0px red;
+    font-size: medium;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    width: 80px;
+    
+}
+.logo{
+    height: auto;
+    width: 60px;
+}
+.loginbox{
+    justify-self: center;
+    border: 2px solid white;
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: white;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 150px;
+}
+input{
+    border: 1px solid gainsboro;
+    height: 35px;
+    width: 85%;
+    border-radius: 30px;
+    padding-left: 10px;
+}
