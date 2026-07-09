@@ -1,3 +1,4 @@
+@media screen{
 *{
     margin: 0;
     padding: 0;
@@ -6,13 +7,16 @@
 body{
     font-family: cursive;
 }
+}
+
+
 nav{
-    height: 70px;
+    height: 8.6vh;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 4.88vh;
 }
 header{
     position: sticky;
@@ -21,7 +25,7 @@ header{
 ul{
     display: flex;
     list-style: none;
-    gap: 25px   ;
+    gap: 3.05vh;
 }
 nav a{
     color: white;
@@ -29,7 +33,7 @@ nav a{
 }
 .Logoheading{
     display: flex;
-    gap: 6px;
+    gap: 0.73vh;
     align-items: center;
 }
 li a:link{
@@ -48,66 +52,62 @@ li a:checked{
 }
 button{
     font-family: 'Times New Roman', Times, serif;
-    border: 0px red;
     font-size: medium;
     background-color: red;
-    border-radius: 5px;
+    border-radius: 0.61vh;
     color: white;
-    height: 25px;
-    width: 80px;
+    height: 3.05vh;
+    width: 11.77vh;
     
 }
 .logo{
     height: auto;
-    width: 60px;
+    width: 7.33vh;
 }
 .menu-container{
-    border: 0px solid;
-    height: 400px;
+    height: 48vh;
     width: 96%;
     display: flex;
     align-items: center;
     justify-self: center;
-    gap: 36px;
+    gap: 4.4vh;
 }
 .card{
-    border: 0px solid;
-    height: 350px;
+    height: 42.78vh;
     width: 24%;
     align-content: center;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 1.22vh;
+    box-shadow: 0 0.48vh 1.22vh rgba(0,0,0,0.1);
 }
 img{
-    height: 250px;
+    height: 30.56vh;
     width: 90%;
-    border-radius: 10px;
+    border-radius: 1.22vh;
 }
 .icon-container{
-    border:0px solid;
     display: flex;
     width: 80%;
     justify-self: center;
-    gap: 65px;
+    gap: 7.94vh;
     justify-content: center;
 }
 .icon-image{
-    border: 1px solid grey;
-    height: 100px;
-    width: 100px;
+    border: 0.2vh solid grey;
+    height: 12.22vh;
+    width: 12.22vh;
     border-radius: 50%;
-    padding: 7px;
+    padding: 0.85vh;
 }
 .icim{
-    height: 85px;
-    width: 85px;
+    height: 10.39vh;
+    width: 10.39vh;
     border-radius: 50%;
 }
 .icon-image p{
-    margin-top: 8px;
-    font-size: 15px;
-    margin-left: 18px;
+    margin-top: 0.97vh;
+    font-size: 1.83vh;
+    margin-left: 2.20vh;
     font-weight: 600;
 }
 .icon-image .icim:hover{

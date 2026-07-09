@@ -1,24 +1,31 @@
+@media screen{
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    font-family: cursive;
+}
 }
 
+
 nav{
-    height: 70px;
+    height: 8.6vh;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 4.88vh;
+}
+header{
+    position: sticky;
+    top: 0;
 }
 ul{
     display: flex;
     list-style: none;
-    gap: 25px   ;
+    gap: 3.05vh;
 }
 nav a{
     color: white;
@@ -26,7 +33,7 @@ nav a{
 }
 .Logoheading{
     display: flex;
-    gap: 6px;
+    gap: 0.73vh;
     align-items: center;
 }
 li a:link{
@@ -39,21 +46,23 @@ li a:hover{
 li a:checked{
     color: yellow;
 }
-
+.redo{
+    color: red;
+    text-decoration: underline;
+}
 button{
     font-family: 'Times New Roman', Times, serif;
-    border: 0px red;
     font-size: medium;
     background-color: red;
-    border-radius: 5px;
+    border-radius: 0.61vh;
     color: white;
-    height: 25px;
-    width: 80px;
+    height: 3.05vh;
+    width: 9.77vh;
     
 }
 .logo{
     height: auto;
-    width: 60px;
+    width: 7.33vh;
 }
 .loginbox{
     justify-self: center;
