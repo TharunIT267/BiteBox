@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: whitesmoke;
+}
 
 nav{
     height: 70px;
@@ -62,7 +65,7 @@ button{
 .menu-container{
     border: 0px solid;
     height: 600px;
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-self: center;
     justify-content: space-between;
@@ -71,19 +74,20 @@ button{
 }
 .card{
     border: 0px solid;
-    height: 490px;
-    width: 24%;
+    height: 520px;
+    width: 28%;
     align-content: center;
     text-align: center;
     display: inline-block;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin: 0px 60px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 img{
-    height: 250px;
-    width: 90%;
-    border-radius: 5px;
+    /* height: 250px; */
+    width: 100%;
+    border-radius: 10%;
+    padding: 20px;
 }
 .bitedeals{
     background-color: whitesmoke;
@@ -102,4 +106,45 @@ img{
     justify-items: center;
     align-content: center;
     font-size: xx-large;
+}
+.Special{
+    display: flex;
+    border: 0px solid;
+    height: 250px;
+    justify-content: center;
+    width: 100%;
+}
+.specoffer{
+    border-radius: 10px;
+    border: 0px solid;
+    height: 200px;
+    width: 24%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+}
+.Hotdeals{
+     display: flex;
+    border: 0px solid;
+    height: 250px;
+    justify-content: center;
+    width: 100%;
+}
+.specoffer1{
+    border-radius: 10px;
+    height: 200px;
+    width: 24%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
 }
