@@ -80,7 +80,7 @@ button{
     height: 50vh;
     width: 100%;
     justify-self: center;
-    margin-top: 30px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50%;
@@ -90,16 +90,16 @@ button{
 }
 .about-this{
     border: 0px solid;
-    margin-top: 0px;
+    margin-top: 60px;
     text-align: center;
     justify-items: center;
     grid-column: span 2;
-    height: 40vh;
+    height: 30vh;
     background-color: whitesmoke;
 }
 video{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 600px;
     float: right;
     padding-bottom: 200px;
 

@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: cursive;
+}
 nav{
     height: 70px;
     background-color: black;
@@ -80,7 +82,7 @@ button{
 img{
     height: 250px;
     width: 90%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .icon-container{
     border:0px solid;
@@ -105,7 +107,7 @@ img{
 .icon-image p{
     margin-top: 8px;
     font-size: 15px;
-    margin-left: 25px;
+    margin-left: 18px;
     font-weight: 600;
 }
 .icon-image .icim:hover{

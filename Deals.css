@@ -1,12 +1,13 @@
+@media screen{
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: whitesmoke;
 }
-
+body{
+    font-family: cursive;
+}
 nav{
     height: 70px;
     background-color: black;
@@ -83,8 +84,9 @@ button{
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     margin: 0px 0px 0px 0px;
 }
-img{
+.card img{
     /* height: 250px; */
+    height: 300px;
     width: 100%;
     border-radius: 10%;
     padding: 20px;
@@ -106,6 +108,12 @@ img{
     justify-items: center;
     align-content: center;
     font-size: xx-large;
+}
+.dealwith h2{
+    font-size: xx-large;
+}
+.dealwith p{
+    font-size: x-large;
 }
 .Special{
     display: flex;
@@ -147,4 +155,16 @@ img{
     text-align: center;
     align-content: center;
     margin: 10px;
+}
+.specoffer>span::selection{
+    background-color: rebeccapurple;
+}
+.specoffer1:first-child>span::selection{
+    background-color: red;
+}
+.specoffer1:nth-child(2)>span::selection{
+    background-color: orange;
+}
+.specoffer1:last-child>span::selection{
+    background-color: green;
 }

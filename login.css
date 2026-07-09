@@ -39,10 +39,7 @@ li a:hover{
 li a:checked{
     color: yellow;
 }
-.redo{
-    color: red;
-    text-decoration: underline;
-}
+
 button{
     font-family: 'Times New Roman', Times, serif;
     border: 0px red;
