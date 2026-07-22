@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 }
 
@@ -51,10 +51,9 @@ li a:checked{
     text-decoration: underline;
 }
 button{
-    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     background-color: red;
-    border-radius: 0.61vh;
+    border-radius: 1.61vh;
     color: white;
     height: 3.05vh;
     width: 9.77vh;
@@ -70,7 +69,6 @@ button{
     text-align: center;
     align-content: center;
     color: white;
-    font-family: cursive;
 }
 .textvideo-container{
     height: 50vh;
@@ -81,13 +79,12 @@ button{
     grid-template-columns: 50% 50%;
     grid-template-rows: 50%;
     row-gap: 7.33vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .about-this{
-    margin-top: 7.33vh;
     text-align: center;
     justify-items: center;
+    align-content: center;
     grid-column: span 2;
     height: 30vh;
     background-color: whitesmoke;
@@ -100,7 +97,9 @@ video{
 
 }
 .matter{
-    margin: 2.44vh 0vh 0vh 2.44vh;
+    /* margin: 2.44vh 0vh 0vh 2.44vh; */
+    margin-top: 15vh;
+    margin-left: 5vh;
 }
 
 .empty{
@@ -114,3 +113,41 @@ video{
     width: 12.22vh;
     font-size: large;
 }
+footer ul{
+    list-style: none;
+    display: block;
+    padding: 0;
+}
+footer ul a{
+    color: white;
+    text-decoration: none;
+
+}
+footer .footer-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    padding-left: 200px;
+}
+.footer-container .footer-box p{
+    width: 50%;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+}
+.special-icons a{
+    font-size: 20px;
+    color: #ccc;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
+}
+

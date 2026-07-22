@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 }
 
@@ -51,7 +51,6 @@ li a:checked{
     text-decoration: underline;
 }
 button{
-    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     background-color: red;
     border-radius: 0.61vh;

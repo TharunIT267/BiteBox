@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: cursive;
-}
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 }
 
 
@@ -51,7 +50,6 @@ li a:checked{
     text-decoration: underline;
 }
 button{
-    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     background-color: red;
     border-radius: 0.61vh;
@@ -168,4 +166,41 @@ button{
 }
 .specoffer1:last-child>span::selection{
     background-color: green;
+}
+footer ul{
+    list-style: none;
+    display: block;
+    padding: 0;
+}
+footer ul a{
+    color: white;
+    text-decoration: none;
+
+}
+footer .footer-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    padding-left: 200px;
+}
+.footer-container .footer-box p{
+    width: 50%;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+}
+.special-icons a{
+    font-size: 20px;
+    color: #ccc;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
 }
